@@ -6,10 +6,10 @@ import os
 
 def get_data(url, params, headers):
     response = requests.get(url, params=params, headers=headers)
-    if response.status_code == 200:
+    '''if response.status_code == 200:
         print("Data retrieved successfully")
     else:
-        print(f"Error: {response.status_code}")
+        print(f"Error: {response.status_code}")'''
     return response
 
 def data_to_df(response):
@@ -25,7 +25,7 @@ def data_to_df(response):
         for child in p:
             if len(child) > 0: # Check if the child has subchilds
                 for subchild in child:
-                    dados[subchild.tag] = subchild.text
+                    dados[f"{child.tag}_{subchild.tag}"] = subchild.text
                 
             else:
                 dados[child.tag] = child.text
