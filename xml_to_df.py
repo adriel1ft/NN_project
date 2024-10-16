@@ -49,7 +49,7 @@ def data_to_df(response, ObterProposicaoPorID=None):
             else:
                 dados[child.tag] = child.text
 
-        df = pd.DataFrame(dados, index=[0])
+        df = pd.DataFrame([dados])
         
     return df
 
