@@ -53,9 +53,17 @@ def data_to_df(response, ObterProposicaoPorID=None):
         
     return df
 
-def save_csv(df, filename):
-    if not os.path.exists('data'):
-        os.makedirs('data')
+def save_csv(df, filename, ObterProposicaoPorID=None):
+
+    if ObterProposicaoPorID != None:
+        if not os.path.exists('data/proposicoes'):
+            os.makedirs('data/proposicoes')
+        full_path = os.path.join('data/proposicoes', filename)
+
+    else:
+        if not os.path.exists('data'):
+            os.makedirs('data')
+        
+        full_path = os.path.join('data', filename)
     
-    full_path = os.path.join('data', filename)
     df.to_csv(full_path, index=False)
