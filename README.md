@@ -10,6 +10,6 @@ Tema do projeto: Classificação de Projetos de Leis da Câmara dos Deputados.
 ## Estrutura do Projeto
 - `collecting_data/`: Contém os arquivos com os códigos responsáveis pelas requisições do projeto.
 - `data/`: Contém os datasets gerados com os dados das requisições após limpeza e analise.
-- `img/`: Guarda uma imagem oficial do governo que ilustra o processo de aprovação de uma Lei.
+- `img/`: Guarda uma imagem oficial do governo que ilustra o processo de aprovação de uma Lei. Além de imagens que foram usadas para o entendimento do cenário politico do país.
 
 ## Etapas
