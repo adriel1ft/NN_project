@@ -1,16 +1,21 @@
-Partido/Federação,Aliado,Oposição
+Partido,Aliado,Oposição
 PL,0,1
-"FE Brasil (PT, PCdoB, PV)",1,0
+PT,1,0 
+PCdoB,1,0
+PV,1,0
 UNIÃO,1,0
 PP,1,0
-MDB,1,0
+PMDB,1,0
 Republicanos,0,0
 PSD,1,0
+PSC,0,0
 PDT,1,0
-"Federação PSDB Cidadania (PSDB, Cidadania)",0,0
+PSDB,0,0
+Cidadania,0,0
 PODE,0,0
 PSB,1,0
-"Federação PSOL REDE (PSOL, REDE)",1,0
+PSOL,1,0
+REDE,1,0
 Avante,0,0
 PRD,0,0
 Solidariedade,1,0
