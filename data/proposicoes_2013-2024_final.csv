@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 nomeProposicao,idProposicao,partidoAutor,DataApresentacao,ano,Administração e Políticas Públicas,Desenvolvimento Social e Urbano,Direitos e Justiça,Economia e Desenvolvimento Sustentável,Infraestrutura e Gestão de Recursos,VirouLei,influencia,Aliado,Oposição
+=======
+nomeProposicao,idProposicao,partidoAutor,DataApresentacao,Ano,Administração e Políticas Públicas,Desenvolvimento Social e Urbano,Direitos e Justiça,Economia e Desenvolvimento Sustentável,Infraestrutura e Gestão de Recursos,VirouLei,Influencia,Aliado,Oposição
+>>>>>>> refs/remotes/origin/main
 PL 7021/2013,604997,PSD,2013-12-19,2013,0,0,1,0,0,0,0.0779727095516569,1,0
 PL 7020/2013,604994,PRP,2013-12-19,2013,0,0,0,1,0,0,0.0246913580246913,0,0
 PL 7017/2013,604974,PSC,2013-12-18,2013,0,0,0,1,1,0,0.0253411306042884,1,0
