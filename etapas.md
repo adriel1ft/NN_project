@@ -2,21 +2,14 @@
 
 Partido | Temas | é_oposicao | é_aliado
 
-#### A seguir
-
-
-- Ajustar o dataset
-* Rever a separação das categorias
-* Medir a inclinação politica dos partidos
-* Inclinação (é_oposicao, é_aliado)
-* influencia dos partidos (porcentagem_de_assentos_do_partid_q_propos a lei).
+### A seguir
 
 * cost-sensitive learning
 - Atualizar a arvore de decisão
 - Atualizar a rede neural
 - Implementar a svm
 
-### Observações sobre os modelos
+#### Observações sobre os modelos
 
 - Testar as opções para o desequilibrio 
 * oversampling

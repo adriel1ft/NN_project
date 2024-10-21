@@ -2,6 +2,9 @@ Partido,Aliado,Oposição
 PT,1,0
 PMDB,1,0
 PSDB,0,1
+PROS,1,0
+PSD,1,0
+SD,1,0
 PP,0,0
 DEM,0,1
 PR,1,0
@@ -12,6 +15,8 @@ PSC,1,0
 PCdoB,1,0
 PV,0,0
 PPS,0,1
+SDD,0,1
+REPUBLICANOS,1,0
 PRB,1,0
 PMN,0,0
 PTdoB,0,0
