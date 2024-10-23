@@ -1,1 +1,1 @@
-data/ObterProposicoes_2013_2024.csv filter=lfs diff=lfs merge=lfs -text
+data/other_dfs/ObterProposicoes_2013_2024.csv filter=lfs diff=lfs merge=lfs -text
